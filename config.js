@@ -26,8 +26,8 @@ module.exports = {
             dest: `${dest}/imgs`
         },
 
-        php: {
-            src: '**/*.php'
+        html: {
+            src: 'index.html'
         }
     },
     names: {

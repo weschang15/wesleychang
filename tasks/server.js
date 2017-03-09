@@ -5,7 +5,7 @@ const { php } = config.paths;
 module.exports = ( gulp ) => {
     gulp.task( 'serve', ['styls', 'imagemin'], () => {
         bs.init({
-            baseDir: './',
+            server: './',
             notify: true
         });
     });

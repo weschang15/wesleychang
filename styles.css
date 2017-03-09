@@ -1,0 +1,559 @@
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:active, a:hover {
+  outline-width: 0;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type="button"], [type="reset"], [type="submit"] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type="checkbox"], [type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type="search"]::-webkit-search-cancel-button, [type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template, [hidden] {
+  display: none;
+}
+
+html {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  font-weight: 300;
+  color: #666;
+  font-size: 12px;
+  line-height: 1.75em;
+}
+
+@media (min-width: 600px) {
+  html {
+    font-size: calc( 12px + (20 - 12) * ((100vw - 600px) / (1140 - 600)));
+  }
+}
+
+@media (min-width: 1140px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+p, blockquote, pre,
+address,
+dl, ol, ul,
+table {
+  margin-bottom: 1.75em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  font-weight: 500;
+  color: #111;
+  clear: both;
+}
+
+h1 {
+  font-size: 27.85463px;
+  margin-top: 0.94239em;
+  line-height: 1.13087em;
+  margin-bottom: 0.18848em;
+}
+
+@media (min-width: 600px) {
+  h1 {
+    font-size: calc( 27.85463px + (46.42438 - 27.85463) * ((100vw - 600px) / (1140 - 600)));
+  }
+}
+
+@media (min-width: 1140px) {
+  h1 {
+    font-size: 46.42438px;
+    margin-top: 0.94239em;
+    line-height: 1.13087em;
+    margin-bottom: 0.18848em;
+  }
+}
+
+h2 {
+  font-size: 23.53717px;
+  margin-top: 1.11526em;
+  line-height: 1.33831em;
+  margin-bottom: 0.25148em;
+}
+
+@media (min-width: 600px) {
+  h2 {
+    font-size: calc( 23.53717px + (39.22861 - 23.53717) * ((100vw - 600px) / (1140 - 600)));
+  }
+}
+
+@media (min-width: 1140px) {
+  h2 {
+    font-size: 39.22861px;
+    margin-top: 1.11526em;
+    line-height: 1.33831em;
+    margin-bottom: 0.24011em;
+  }
+}
+
+h3 {
+  font-size: 19.88891px;
+  margin-top: 1.31983em;
+  line-height: 1.5838em;
+  margin-bottom: 0.30378em;
+}
+
+@media (min-width: 600px) {
+  h3 {
+    font-size: calc( 19.88891px + (33.14818 - 19.88891) * ((100vw - 600px) / (1140 - 600)));
+  }
+}
+
+@media (min-width: 1140px) {
+  h3 {
+    font-size: 33.14818px;
+    margin-top: 1.31983em;
+    line-height: 1.5838em;
+    margin-bottom: 0.28786em;
+  }
+}
+
+h4 {
+  font-size: 16.80613px;
+  margin-top: 1.56193em;
+  line-height: 1.87432em;
+  margin-bottom: 0.36815em;
+}
+
+@media (min-width: 600px) {
+  h4 {
+    font-size: calc( 16.80613px + (28.01022 - 16.80613) * ((100vw - 600px) / (1140 - 600)));
+  }
+}
+
+@media (min-width: 1140px) {
+  h4 {
+    font-size: 28.01022px;
+    margin-top: 1.56193em;
+    line-height: 1.87432em;
+    margin-bottom: 0.34584em;
+  }
+}
+
+h5 {
+  font-size: 14.20118px;
+  margin-top: 1.84844em;
+  line-height: 2.21813em;
+  margin-bottom: 0.36969em;
+}
+
+@media (min-width: 600px) {
+  h5 {
+    font-size: calc( 14.20118px + (23.66864 - 14.20118) * ((100vw - 600px) / (1140 - 600)));
+  }
+}
+
+@media (min-width: 1140px) {
+  h5 {
+    font-size: 23.66864px;
+    margin-top: 1.84844em;
+    line-height: 2.21813em;
+    margin-bottom: 0.36969em;
+  }
+}
+
+h6 {
+  font-size: 12px;
+  margin-top: 2.1875em;
+  line-height: 2.625em;
+  margin-bottom: 0.51042em;
+}
+
+@media (min-width: 600px) {
+  h6 {
+    font-size: calc( 12px + (20 - 12) * ((100vw - 600px) / (1140 - 600)));
+  }
+}
+
+@media (min-width: 1140px) {
+  h6 {
+    font-size: 20px;
+    margin-top: 2.1875em;
+    line-height: 2.625em;
+    margin-bottom: 0.47396em;
+  }
+}
+
+blockquote {
+  font-style: italic;
+}
+
+blockquote cite {
+  display: block;
+  font-style: normal;
+}
+
+pre {
+  padding: 0.875em;
+  margin-bottom: 1.75em;
+}
+
+pre code {
+  padding: 0;
+}
+
+code {
+  font-family: "Courier New", "Courier", "Lucida Sans Typewriter", "Lucida Typewriter", "monospace";
+  padding: 0.0875em 0.2625em;
+  line-height: 0;
+}
+
+big, small, sub, sup {
+  line-height: 0;
+}
+
+abbr, acronym {
+  border-bottom: 1px dotted currentColor;
+  cursor: help;
+}
+
+address {
+  font-style: normal;
+}
+
+dt {
+  color: #111;
+  font-weight: bold;
+}
+
+ul {
+  padding-left: 1.1em;
+}
+
+ol {
+  padding-left: 1.4em;
+}
+
+fieldset {
+  padding: 0.875em 1.75em 1.75em;
+  border-width: 1px;
+  border-style: solid;
+  max-width: 100%;
+  margin-bottom: 1.8375em;
+}
+
+@media (min-width: 1140px) {
+  fieldset {
+    margin-bottom: 2.07812em;
+  }
+}
+
+fieldset button, fieldset input[type="submit"] {
+  margin-bottom: 0;
+}
+
+legend {
+  color: #111;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea {
+  display: block;
+  max-width: 100%;
+  padding: 0.4375em;
+  font-size: 12px;
+  margin-bottom: 1.18125em;
+}
+
+@media (min-width: 600px) {
+  input[type="text"], input[type="email"], input[type="password"], textarea {
+    font-size: calc( 12px + (20 - 12) * ((100vw - 600px) / (1140 - 600)));
+  }
+}
+
+@media (min-width: 1140px) {
+  input[type="text"], input[type="email"], input[type="password"], textarea {
+    font-size: 20px;
+    margin-bottom: 0.51406em;
+  }
+}
+
+input[type="submit"], button {
+  display: block;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 0.4375em 1.75em;
+  margin-bottom: 1.18125em;
+}
+
+@media (min-width: 600px) {
+  input[type="submit"], button {
+    font-size: calc( 12px + (20 - 12) * ((100vw - 600px) / (1140 - 600)));
+  }
+}
+
+@media (min-width: 1140px) {
+  input[type="submit"], button {
+    font-size: 20px;
+    margin-bottom: 1.3125em;
+  }
+}
+
+label {
+  display: block;
+  padding-bottom: 0.21875em;
+  margin-bottom: -0.21875em;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin-bottom: 2.1875em;
+}
+
+@media (min-width: 1140px) {
+  table {
+    margin-bottom: 2.0125em;
+  }
+}
+
+th {
+  text-align: left;
+  color: #111;
+  padding: 0.21875em 0.875em;
+}
+
+@media (min-width: 1140px) {
+  th {
+    padding: 0.4375em 0.875em;
+  }
+}
+
+td {
+  padding: 0.875em;
+  padding: 0.21875em 0.875em;
+}
+
+@media (min-width: 1140px) {
+  td {
+    padding: 0.4375em 0.875em;
+  }
+}
+
+/*
+    * $BASE
+    * Styles applied to an element using an element selector, a
+    * descendent selector, or a child selector, along with any pseudo-classes, that define
+    * the default look of an element on all pages */
+/*
+    * $ATOMS
+    * Single element styles, such as a form label, input, button,
+    * or any other element that's in it's simplest form */
+/*
+    * $MOLECULES
+    * A group of elements that function as a single unit such as a
+    * search form - label, input, and button */
+/*
+    * $ORGANISMS
+    * Consists of different molecules, such as a header organism which might contain
+    * a logo, navigation, and a search form */
+/*
+    * $STATE
+    * Styles that define a state of an atom or molecule -
+    * i.e. .is-showing .is-collapsed */
