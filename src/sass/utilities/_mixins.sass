@@ -1,0 +1,31 @@
+// Mixins
+
+=font-size($fs-map, $lh: false)
+	@each $fs-breakpoint, $fs-font-size in $fs-map
+		@if $fs-breakpoint == null
+			font-size: ($fs-font-size) + px
+			@if $lh == true
+				line-height: (0.125 * $fs-font-size) + rem
+		@else
+			@media screen and (min-width: $fs-breakpoint)
+				font-size: ($fs-font-size) + px
+				@if $lh == true
+					line-height: (0.125 * $fs-font-size) + rem
+
+=bp($break, $viewport1: null)
+	@if not $viewport1
+		@if map-has-key($breakpoints, $break)
+			@media only screen and #{map-get($breakpoints, $break)}
+				@content
+		@else
+			@warn "Couldn't find a breakpoint named #{$break}."
+	@else
+		@if $break == min
+			@media screen and (min-width: $viewport1)
+				@content
+		@else if $break == max
+			@media screen and (max-width: $viewport1)
+				@content
+		@else
+			@media screen and (min-width: $break) and (max-width: $viewport1)
+				@content
