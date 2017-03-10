@@ -8,20 +8,14 @@ const { html, base } = config.names;
  * then rename it back to .php
  */
 module.exports = ( gulp, $ ) => {
-    gulp.task( 'minify:php', () => {
-        return gulp.src( 'front-page.php' )
+    gulp.task( 'minify:html', () => {
+        return gulp.src( 'index.html' )
             .pipe($.size())
-            .pipe( $.rename({
-                extname: html
-            }))
             .pipe( $.htmlmin({
                 collapseWhitespace: true,
                 removeTagWhitespace: true
             }))
-            .pipe( $.rename({
-                extname: base
-            }))
             .pipe($.size())
-            .pipe( gulp.dest( project ) );
+            .pipe( gulp.dest( 'app/' ) );
     });
 };

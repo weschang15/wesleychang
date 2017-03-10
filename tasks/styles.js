@@ -15,10 +15,11 @@ module.exports = ( gulp, $ ) => {
     });
 
     gulp.task( 'styls:clean', () => {
-        return gulp.src( 'style.css' )
+        return gulp.src( 'assets/css/styles.min.fa204e13.css' )
             .pipe($.cleanCss())
             .pipe($.size({ showFiles: true }))
             .pipe($.rename({
+                basename: 'styles',
                 suffix: min
             }))
             .pipe(gulp.dest(styls.dest))
