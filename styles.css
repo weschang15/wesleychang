@@ -202,22 +202,22 @@ template, [hidden] {
 }
 
 html {
-  font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  font-family: "Merriweather", serif;
   font-weight: 300;
   color: #666;
-  font-size: 12px;
-  line-height: 1.75em;
+  font-size: 16px;
+  line-height: 2em;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 480px) {
   html {
-    font-size: calc( 12px + (20 - 12) * ((100vw - 600px) / (1140 - 600)));
+    font-size: calc( 16px + (22 - 16) * ((100vw - 480px) / (1140 - 480)));
   }
 }
 
 @media (min-width: 1140px) {
   html {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 
@@ -237,145 +237,145 @@ p, blockquote, pre,
 address,
 dl, ol, ul,
 table {
-  margin-bottom: 1.75em;
+  margin-bottom: 2em;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
-  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
   color: #111;
   clear: both;
 }
 
 h1 {
-  font-size: 27.85463px;
-  margin-top: 0.94239em;
-  line-height: 1.13087em;
-  margin-bottom: 0.18848em;
+  font-size: 53.81783px;
+  margin-top: 0.74325em;
+  line-height: 0.8919em;
+  margin-bottom: 0.14865em;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 480px) {
   h1 {
-    font-size: calc( 27.85463px + (46.42438 - 27.85463) * ((100vw - 600px) / (1140 - 600)));
+    font-size: calc( 53.81783px + (73.99952 - 53.81783) * ((100vw - 480px) / (1140 - 480)));
   }
 }
 
 @media (min-width: 1140px) {
   h1 {
-    font-size: 46.42438px;
-    margin-top: 0.94239em;
-    line-height: 1.13087em;
-    margin-bottom: 0.18848em;
+    font-size: 73.99952px;
+    margin-top: 0.74325em;
+    line-height: 0.8919em;
+    margin-bottom: 0.14865em;
   }
 }
 
 h2 {
-  font-size: 23.53717px;
-  margin-top: 1.11526em;
-  line-height: 1.33831em;
-  margin-bottom: 0.25148em;
+  font-size: 42.22454px;
+  margin-top: 0.94732em;
+  line-height: 1.13678em;
+  margin-bottom: 0.20292em;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 480px) {
   h2 {
-    font-size: calc( 23.53717px + (39.22861 - 23.53717) * ((100vw - 600px) / (1140 - 600)));
+    font-size: calc( 42.22454px + (58.05875 - 42.22454) * ((100vw - 480px) / (1140 - 480)));
   }
 }
 
 @media (min-width: 1140px) {
   h2 {
-    font-size: 39.22861px;
-    margin-top: 1.11526em;
-    line-height: 1.33831em;
-    margin-bottom: 0.24011em;
+    font-size: 58.05875px;
+    margin-top: 0.94732em;
+    line-height: 1.13678em;
+    margin-bottom: 0.19925em;
   }
 }
 
 h3 {
-  font-size: 19.88891px;
-  margin-top: 1.31983em;
-  line-height: 1.5838em;
-  margin-bottom: 0.30378em;
+  font-size: 33.12865px;
+  margin-top: 1.20741em;
+  line-height: 1.4489em;
+  margin-bottom: 0.26335em;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 480px) {
   h3 {
-    font-size: calc( 19.88891px + (33.14818 - 19.88891) * ((100vw - 600px) / (1140 - 600)));
+    font-size: calc( 33.12865px + (45.55189 - 33.12865) * ((100vw - 480px) / (1140 - 480)));
   }
 }
 
 @media (min-width: 1140px) {
   h3 {
-    font-size: 33.14818px;
-    margin-top: 1.31983em;
-    line-height: 1.5838em;
-    margin-bottom: 0.28786em;
+    font-size: 45.55189px;
+    margin-top: 1.20741em;
+    line-height: 1.4489em;
+    margin-bottom: 0.25739em;
   }
 }
 
 h4 {
-  font-size: 16.80613px;
-  margin-top: 1.56193em;
-  line-height: 1.87432em;
-  margin-bottom: 0.36815em;
+  font-size: 25.99217px;
+  margin-top: 1.53893em;
+  line-height: 1.84671em;
+  margin-bottom: 0.34331em;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 480px) {
   h4 {
-    font-size: calc( 16.80613px + (28.01022 - 16.80613) * ((100vw - 600px) / (1140 - 600)));
+    font-size: calc( 25.99217px + (35.73923 - 25.99217) * ((100vw - 480px) / (1140 - 480)));
   }
 }
 
 @media (min-width: 1140px) {
   h4 {
-    font-size: 28.01022px;
-    margin-top: 1.56193em;
-    line-height: 1.87432em;
-    margin-bottom: 0.34584em;
+    font-size: 35.73923px;
+    margin-top: 1.53893em;
+    line-height: 1.84671em;
+    margin-bottom: 0.33362em;
   }
 }
 
 h5 {
-  font-size: 14.20118px;
-  margin-top: 1.84844em;
-  line-height: 2.21813em;
-  margin-bottom: 0.36969em;
+  font-size: 20.39301px;
+  margin-top: 1.96146em;
+  line-height: 2.35375em;
+  margin-bottom: 0.39229em;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 480px) {
   h5 {
-    font-size: calc( 14.20118px + (23.66864 - 14.20118) * ((100vw - 600px) / (1140 - 600)));
+    font-size: calc( 20.39301px + (28.04038 - 20.39301) * ((100vw - 480px) / (1140 - 480)));
   }
 }
 
 @media (min-width: 1140px) {
   h5 {
-    font-size: 23.66864px;
-    margin-top: 1.84844em;
-    line-height: 2.21813em;
-    margin-bottom: 0.36969em;
+    font-size: 28.04038px;
+    margin-top: 1.96146em;
+    line-height: 2.35375em;
+    margin-bottom: 0.39229em;
   }
 }
 
 h6 {
-  font-size: 12px;
-  margin-top: 2.1875em;
-  line-height: 2.625em;
-  margin-bottom: 0.51042em;
+  font-size: 16px;
+  margin-top: 2.5em;
+  line-height: 3em;
+  margin-bottom: 0.5625em;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 480px) {
   h6 {
-    font-size: calc( 12px + (20 - 12) * ((100vw - 600px) / (1140 - 600)));
+    font-size: calc( 16px + (22 - 16) * ((100vw - 480px) / (1140 - 480)));
   }
 }
 
 @media (min-width: 1140px) {
   h6 {
-    font-size: 20px;
-    margin-top: 2.1875em;
-    line-height: 2.625em;
-    margin-bottom: 0.47396em;
+    font-size: 22px;
+    margin-top: 2.5em;
+    line-height: 3em;
+    margin-bottom: 0.53125em;
   }
 }
 
@@ -389,8 +389,8 @@ blockquote cite {
 }
 
 pre {
-  padding: 0.875em;
-  margin-bottom: 1.75em;
+  padding: 1em;
+  margin-bottom: 2em;
 }
 
 pre code {
@@ -399,7 +399,7 @@ pre code {
 
 code {
   font-family: "Courier New", "Courier", "Lucida Sans Typewriter", "Lucida Typewriter", "monospace";
-  padding: 0.0875em 0.2625em;
+  padding: 0.1em 0.3em;
   line-height: 0;
 }
 
@@ -430,16 +430,16 @@ ol {
 }
 
 fieldset {
-  padding: 0.875em 1.75em 1.75em;
+  padding: 1em 2em 2em;
   border-width: 1px;
   border-style: solid;
   max-width: 100%;
-  margin-bottom: 1.8375em;
+  margin-bottom: 2.09091em;
 }
 
 @media (min-width: 1140px) {
   fieldset {
-    margin-bottom: 2.07812em;
+    margin-bottom: 2.38636em;
   }
 }
 
@@ -455,84 +455,84 @@ legend {
 input[type="text"], input[type="email"], input[type="password"], textarea {
   display: block;
   max-width: 100%;
-  padding: 0.4375em;
-  font-size: 12px;
-  margin-bottom: 1.18125em;
+  padding: 0.5em;
+  font-size: 16px;
+  margin-bottom: 1.31818em;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 480px) {
   input[type="text"], input[type="email"], input[type="password"], textarea {
-    font-size: calc( 12px + (20 - 12) * ((100vw - 600px) / (1140 - 600)));
+    font-size: calc( 16px + (22 - 16) * ((100vw - 480px) / (1140 - 480)));
   }
 }
 
 @media (min-width: 1140px) {
   input[type="text"], input[type="email"], input[type="password"], textarea {
-    font-size: 20px;
-    margin-bottom: 0.51406em;
+    font-size: 22px;
+    margin-bottom: 0.57955em;
   }
 }
 
 input[type="submit"], button {
   display: block;
   cursor: pointer;
-  font-size: 12px;
-  padding: 0.4375em 1.75em;
-  margin-bottom: 1.18125em;
+  font-size: 16px;
+  padding: 0.5em 2em;
+  margin-bottom: 1.36364em;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 480px) {
   input[type="submit"], button {
-    font-size: calc( 12px + (20 - 12) * ((100vw - 600px) / (1140 - 600)));
+    font-size: calc( 16px + (22 - 16) * ((100vw - 480px) / (1140 - 480)));
   }
 }
 
 @media (min-width: 1140px) {
   input[type="submit"], button {
-    font-size: 20px;
-    margin-bottom: 1.3125em;
+    font-size: 22px;
+    margin-bottom: 1.5em;
   }
 }
 
 label {
   display: block;
-  padding-bottom: 0.21875em;
-  margin-bottom: -0.21875em;
+  padding-bottom: 0.25em;
+  margin-bottom: -0.27273em;
 }
 
 table {
   width: 100%;
   border-spacing: 0;
   border-collapse: collapse;
-  margin-bottom: 2.1875em;
+  margin-bottom: 2.45455em;
 }
 
 @media (min-width: 1140px) {
   table {
-    margin-bottom: 2.0125em;
+    margin-bottom: 2.27273em;
   }
 }
 
 th {
   text-align: left;
   color: #111;
-  padding: 0.21875em 0.875em;
+  padding: 0.25em 1em;
 }
 
 @media (min-width: 1140px) {
   th {
-    padding: 0.4375em 0.875em;
+    padding: 0.5em 1em;
   }
 }
 
 td {
-  padding: 0.875em;
-  padding: 0.21875em 0.875em;
+  padding: 1em;
+  padding: 0.25em 1em;
 }
 
 @media (min-width: 1140px) {
   td {
-    padding: 0.4375em 0.875em;
+    padding: 0.5em 1em;
   }
 }
 
@@ -541,18 +541,199 @@ td {
     * Styles applied to an element using an element selector, a
     * descendent selector, or a child selector, along with any pseudo-classes, that define
     * the default look of an element on all pages */
+* {
+  box-sizing: border-box;
+}
+
+.section {
+  background: #F2F7F2;
+  padding: 50px;
+}
+
+@media screen and (max-width: 879px) {
+  .section {
+    padding: 25px;
+  }
+}
+
+.header {
+  margin: 0px auto 100px auto;
+  text-align: center;
+  max-width: 1140px;
+}
+
+.header p span {
+  font-style: italic;
+  color: #1B998B;
+}
+
 /*
     * $ATOMS
     * Single element styles, such as a form label, input, button,
     * or any other element that's in it's simplest form */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 /*
     * $MOLECULES
     * A group of elements that function as a single unit such as a
     * search form - label, input, and button */
+.cards-list__item {
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  background: #fff;
+  overflow: hidden;
+  -ms-flex: 1 1 350px;
+  flex: 1 1 350px;
+  margin: 20px;
+}
+
+.cards-list__item .card-header img {
+  display: block;
+  width: 100%;
+}
+
+.cards-list__item .card-description {
+  padding: 0px 25px 25px 25px;
+}
+
+.cards-list__item .card-description h5 {
+  text-transform: uppercase;
+}
+
+.cards-list__item--row {
+  -ms-flex-align: start;
+  align-items: flex-start;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.08);
+  background: #fff;
+  padding: 20px;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px;
+}
+
+@media screen and (max-width: 879px) {
+  .cards-list__item--row {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.cards-list__item--row .card-header {
+  width: 40%;
+}
+
+@media screen and (max-width: 879px) {
+  .cards-list__item--row .card-header {
+    width: 100%;
+  }
+}
+
+.cards-list__item--row .card-header img {
+  display: block;
+  width: 100%;
+  margin: 0px;
+}
+
+.cards-list__item--row .card-description {
+  margin-left: 25px;
+  width: 60%;
+}
+
+@media screen and (max-width: 879px) {
+  .cards-list__item--row .card-description {
+    margin-left: 0px;
+    width: 100%;
+  }
+}
+
+.cards-list__item--row .card-description h5 {
+  margin: 0px;
+}
+
 /*
     * $ORGANISMS
     * Consists of different molecules, such as a header organism which might contain
     * a logo, navigation, and a search form */
+.landing {
+  background: #2D3047;
+  padding: 0px;
+}
+
+.landing-header {
+  padding: 125px 50px;
+  text-align: left;
+  max-width: 1140px;
+  margin: 0px auto;
+  background-image: url("assets/imgs/pattern.svg");
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.landing-header h1 {
+  margin: 0px 0px 30px 0px;
+  color: #F2F7F2;
+}
+
+.landing-header p {
+  margin-bottom: 10px;
+  color: #F2F7F2;
+}
+
+.landing-header p strong {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.landing-header p .special-one {
+  color: #FFFD82;
+}
+
+.landing-header p .special-two {
+  color: #E84855;
+}
+
+.landing-header p .special-three {
+  font-style: italic;
+  color: #FF9B71;
+}
+
+.landing-header p .special-four {
+  font-style: italic;
+  color: #1B998B;
+}
+
+.cards-list {
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  max-width: 1140px;
+  margin: 0px auto;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cards-list--column {
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.footer {
+  background: #2D3047;
+}
+
+.footer .content {
+  padding: 50px;
+}
+
+.footer .content p {
+  text-align: center;
+  color: #F2F7F2;
+  opacity: 0.2;
+  margin: 0px;
+}
+
 /*
     * $STATE
     * Styles that define a state of an atom or molecule -

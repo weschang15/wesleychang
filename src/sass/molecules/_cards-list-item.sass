@@ -1,0 +1,40 @@
+.cards-list__item
+    box-shadow: $shadow
+    border-radius: 4px
+    background: $pure
+    overflow: hidden
+    flex: 1 1 350px
+    margin: 20px
+    .card-header
+        img
+            display: block
+            width: 100%
+    .card-description
+        padding: 0px 25px 25px 25px
+        h5
+            text-transform: uppercase
+    &--row
+        align-items: flex-start
+        box-shadow: $shadow
+        background: $pure
+        padding: 20px
+        display: flex
+        margin: 20px
+        +bp(max, 879px)
+            flex-direction: column
+        .card-header
+            width: 40%
+            +bp(max, 879px)
+                width: 100%
+            img
+                display: block
+                width: 100%
+                margin: 0px
+        .card-description
+            margin-left: 25px
+            width: 60%
+            +bp(max, 879px)
+                margin-left: 0px
+                width: 100%
+            h5
+                margin: 0px
