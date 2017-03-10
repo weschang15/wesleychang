@@ -281,16 +281,16 @@ h3 {
 
 @media (min-width:480px) {
   h3 {
-    font-size: calc(33.12865px + (45.55189 - 33.12865) * ((100vw - 480px)/ (1140 - 480)));
+    font-size: calc(33.12865px + (37.26973 - 33.12865) * ((100vw - 480px)/ (1140 - 480)));
   }
 }
 
 @media (min-width:1140px) {
   h3 {
-    font-size: 45.55189px;
+    font-size: 37.26973px;
     margin-top: 1.20741em;
     line-height: 1.4489em;
-    margin-bottom: .25739em;
+    margin-bottom: .26092em;
   }
 }
 
@@ -303,16 +303,16 @@ h4 {
 
 @media (min-width:480px) {
   h4 {
-    font-size: calc(25.99217px + (35.73923 - 25.99217) * ((100vw - 480px)/ (1140 - 480)));
+    font-size: calc(25.99217px + (29.24119 - 25.99217) * ((100vw - 480px)/ (1140 - 480)));
   }
 }
 
 @media (min-width:1140px) {
   h4 {
-    font-size: 35.73923px;
+    font-size: 29.24119px;
     margin-top: 1.53893em;
     line-height: 1.84671em;
-    margin-bottom: .33362em;
+    margin-bottom: .33936em;
   }
 }
 
@@ -325,13 +325,13 @@ h5 {
 
 @media (min-width:480px) {
   h5 {
-    font-size: calc(20.39301px + (28.04038 - 20.39301) * ((100vw - 480px)/ (1140 - 480)));
+    font-size: calc(20.39301px + (22.94213 - 20.39301) * ((100vw - 480px)/ (1140 - 480)));
   }
 }
 
 @media (min-width:1140px) {
   h5 {
-    font-size: 28.04038px;
+    font-size: 22.94213px;
     margin-top: 1.96146em;
     line-height: 2.35375em;
     margin-bottom: .39229em;
@@ -347,13 +347,13 @@ h6 {
 
 @media (min-width:480px) {
   h6 {
-    font-size: calc(16px + (22 - 16) * ((100vw - 480px)/ (1140 - 480)));
+    font-size: calc(16px + (18 - 16) * ((100vw - 480px)/ (1140 - 480)));
   }
 }
 
 @media (min-width:1140px) {
   h6 {
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 2.5em;
     line-height: 3em;
     margin-bottom: .53125em;
@@ -419,12 +419,12 @@ fieldset {
   border-width: 1px;
   border-style: solid;
   max-width: 100%;
-  margin-bottom: 2.09091em;
+  margin-bottom: 2.11111em;
 }
 
 @media (min-width:1140px) {
   fieldset {
-    margin-bottom: 2.38636em;
+    margin-bottom: 2.36111em;
   }
 }
 
@@ -446,7 +446,7 @@ textarea {
   max-width: 100%;
   padding: .5em;
   font-size: 16px;
-  margin-bottom: 1.31818em;
+  margin-bottom: 1.38889em;
 }
 
 @media (min-width:480px) {
@@ -454,7 +454,7 @@ textarea {
   input[type=password],
   input[type=text],
   textarea {
-    font-size: calc(16px + (22 - 16) * ((100vw - 480px)/ (1140 - 480)));
+    font-size: calc(16px + (18 - 16) * ((100vw - 480px)/ (1140 - 480)));
   }
 }
 
@@ -463,8 +463,8 @@ textarea {
   input[type=password],
   input[type=text],
   textarea {
-    font-size: 22px;
-    margin-bottom: .57955em;
+    font-size: 18px;
+    margin-bottom: .59722em;
   }
 }
 
@@ -474,20 +474,20 @@ input[type=submit] {
   cursor: pointer;
   font-size: 16px;
   padding: .5em 2em;
-  margin-bottom: 1.36364em;
+  margin-bottom: 1.33333em;
 }
 
 @media (min-width:480px) {
   button,
   input[type=submit] {
-    font-size: calc(16px + (22 - 16) * ((100vw - 480px)/ (1140 - 480)));
+    font-size: calc(16px + (18 - 16) * ((100vw - 480px)/ (1140 - 480)));
   }
 }
 
 @media (min-width:1140px) {
   button,
   input[type=submit] {
-    font-size: 22px;
+    font-size: 18px;
     margin-bottom: 1.5em;
   }
 }
@@ -495,19 +495,19 @@ input[type=submit] {
 label {
   display: block;
   padding-bottom: .25em;
-  margin-bottom: -.27273em;
+  margin-bottom: -.22222em;
 }
 
 table {
   width: 100%;
   border-spacing: 0;
   border-collapse: collapse;
-  margin-bottom: 2.45455em;
+  margin-bottom: 2.55556em;
 }
 
 @media (min-width:1140px) {
   table {
-    margin-bottom: 2.27273em;
+    margin-bottom: 2.33333em;
   }
 }
 
@@ -532,6 +532,12 @@ td {
   td {
     padding: .5em 1em;
   }
+}
+
+.header {
+  margin: 0 auto 100px auto;
+  text-align: center;
+  max-width: 1140px;
 }
 
 .cards-list__item .card-description {
@@ -597,9 +603,14 @@ td {
   text-align: left;
   max-width: 1140px;
   margin: 0 auto;
-  background-image: url(../imgs/pattern.svg);
+  background-image: url(assets/imgs/pattern.svg);
   background-position: center;
   background-repeat: repeat;
+}
+
+.landing-header h1 {
+  margin: 0 0 30px 0;
+  color: #f2f7f2;
 }
 
 .cards-list--column {

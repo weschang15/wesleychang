@@ -13,10 +13,12 @@ module.exports = ( gulp, $ ) => {
             .pipe(critical({
                 base: './',
                 inline: true,
-                css: 'styles.css',
+                css: 'assets/css/styles.min.css',
                 minify: true,
-                width: 2560,
-                height: 1440,
+                dimensions: [
+                    { width: 2560, height: 1440, },
+                    { width: 750,  height: 1140},
+                ],
                 extract: true
             }))
             .pipe(gulp.dest('./'));
